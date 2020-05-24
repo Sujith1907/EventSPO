@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/eventSpo/EventSpoWebPart.js",
+      "manifest": "./src/webparts/eventSpo/EventSpoWebPart.manifest.json",
+      "outputPath": "./dist/event-spo-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "EventSpoWebPartStrings": "webparts/eventSpo/loc/{locale}.js"
+  }
+}

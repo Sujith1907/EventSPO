@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem",
+    "version": "1.9.1",
+    "libraryName": "react-learn",
+    "libraryId": "78306901-4c14-4fcd-8ae0-4a1ee22238e3",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

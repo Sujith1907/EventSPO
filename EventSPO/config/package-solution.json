@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "event-spo-client-side-solution",
+    "id": "bcf7d632-8300-45bc-8298-31f4ec11fa0a",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/event-spo.sppkg"
+  }
+}

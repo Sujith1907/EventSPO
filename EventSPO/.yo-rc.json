@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem",
+    "version": "1.9.1",
+    "libraryName": "event-spo",
+    "libraryId": "bcf7d632-8300-45bc-8298-31f4ec11fa0a",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/reactLearn/ReactLearnWebPart.js",
+      "manifest": "./src/webparts/reactLearn/ReactLearnWebPart.manifest.json",
+      "outputPath": "./dist/react-learn-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "ReactLearnWebPartStrings": "webparts/reactLearn/loc/{locale}.js"
+  }
+}

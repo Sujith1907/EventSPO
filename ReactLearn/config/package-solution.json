@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-learn-client-side-solution",
+    "id": "78306901-4c14-4fcd-8ae0-4a1ee22238e3",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/react-learn.sppkg"
+  }
+}
