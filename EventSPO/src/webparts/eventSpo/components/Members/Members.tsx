@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Member from '../statelessComponents/Member/Member';
+import styles from './Members.module.scss';
 
 class Members extends React.Component<any, any> {
     private users = {
@@ -11,7 +12,7 @@ class Members extends React.Component<any, any> {
                 secondaryText: 'SharePoint Architect'
             },
             {
-                name: 'Adele Vance',
+                name: 'Cadele Vance',
                 imageUrl: '',
                
                 secondaryText: 'Business Analyst'
@@ -25,21 +26,21 @@ class Members extends React.Component<any, any> {
         ]
     }
     public render(): React.ReactElement<any> {
+        let membersList = (
+            this.users.person.map( p => {
+                return (
+                    <Member
+                        name = {p.name}
+                        imageUrl ={p.imageUrl}
+                        secondaryText = {p.secondaryText} />
+                );
+            })
+        );
         return (
-            <div>
-                <Member 
-                    name={this.users.person[0].name}
-                    imageUrl={this.users.person[0].imageUrl}                   
-                    secondaryText={this.users.person[0].secondaryText} />
-                <Member 
-                    name={this.users.person[1].name}
-                    imageUrl={this.users.person[1].imageUrl}                   
-                    secondaryText={this.users.person[1].secondaryText} />
-                <Member 
-                name={this.users.person[2].name}
-                imageUrl={this.users.person[2].imageUrl}                   
-                secondaryText={this.users.person[2].secondaryText} />
-        </div>
+            <div className = {styles.Members}>
+                {membersList}
+            </div>
+                
         );
     }
 }
